@@ -210,7 +210,7 @@
                   gs.player2.prevDirection = gs.player2.direction = GameState.DIRECTION.right;
                   gs.updatePlayer(gs.players.getAt(1));
                },
-               "both down": function() {
+               "together down": function() {
                   gs.player1.prevDirection = gs.player1.direction = GameState.DIRECTION.down;
                   gs.updatePlayer(gs.players.getAt(0));
                   gs.player2.prevDirection = gs.player2.direction = GameState.DIRECTION.down;
